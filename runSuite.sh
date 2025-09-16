@@ -1,0 +1,1 @@
+./mvnw clean test -Dgroups="regresion" -Dbrowser="edge" -Dheadless

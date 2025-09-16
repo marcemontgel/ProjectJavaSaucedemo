@@ -1,0 +1,8 @@
+13:49:44.633 INFO  AUTOMATION - beforeAll
+13:49:44.674 INFO  AUTOMATION - before: Verificar la UI de la pagina
+13:49:45.565 INFO  AUTOMATION - Navegando a la url
+13:49:46.317 INFO  AUTOMATION - Esperando que la pagina cargue
+13:49:46.343 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+13:49:46.344 INFO  AUTOMATION - Verificando Login de la Página
+13:49:46.384 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
+13:49:46.511 INFO  AUTOMATION - afterAll

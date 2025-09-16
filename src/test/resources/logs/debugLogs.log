@@ -1,0 +1,15 @@
+13:49:44.633 INFO  AUTOMATION - beforeAll
+13:49:44.635 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+13:49:44.674 INFO  AUTOMATION - before: Verificar la UI de la pagina
+13:49:44.674 DEBUG AUTOMATION - Asignando default driver a CHROME
+13:49:44.675 DEBUG AUTOMATION - Inicializando driver: CHROME
+13:49:44.675 DEBUG AUTOMATION - Headless mode? false
+13:49:45.513 DEBUG AUTOMATION - Maximizando Pantalla
+13:49:45.545 DEBUG AUTOMATION - Borrando Cookies
+13:49:45.565 INFO  AUTOMATION - Navegando a la url
+13:49:46.317 INFO  AUTOMATION - Esperando que la pagina cargue
+13:49:46.343 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+13:49:46.344 INFO  AUTOMATION - Verificando Login de la Página
+13:49:46.384 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
+13:49:46.384 DEBUG AUTOMATION - Matando el driver
+13:49:46.511 INFO  AUTOMATION - afterAll
