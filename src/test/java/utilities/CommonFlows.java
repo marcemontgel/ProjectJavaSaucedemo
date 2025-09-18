@@ -5,7 +5,9 @@ import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import pages.ItemDetailPage;
 import pages.LoginPage;
+import pages.MenuBurger;
 import pages.ShoppingPage;
+import pages.TopBar;
 
 public class CommonFlows {
 
@@ -35,6 +37,13 @@ public class CommonFlows {
         getDriver().get("https://www.saucedemo.com/inventory.html");
 
         new ShoppingPage().waitPageToLoad();
+    }
+
+    public void openBurgerMenu() {
+        goToShoppingPage();
+
+        new TopBar().openMenuBurger();
+        new MenuBurger().waitPageToLoad();
     }
 
     public void goToItemDetail(String itemName) {

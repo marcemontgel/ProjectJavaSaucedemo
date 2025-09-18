@@ -1,7 +1,14 @@
-10:42:23.829 INFO  AUTOMATION - beforeAll
-10:42:23.888 INFO  AUTOMATION - before: Verificar las redes sociales del footer
-10:42:26.302 INFO  AUTOMATION - Esperando que la pagina cargue
-10:42:26.327 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
-10:42:26.353 INFO  AUTOMATION - Verificando los links de las redes Sociales
-10:42:26.402 INFO  AUTOMATION - after: Verificar las redes sociales del footer, status: PASSED
-10:42:26.593 INFO  AUTOMATION - afterAll
+11:31:57.026 INFO  AUTOMATION - beforeAll
+11:31:57.087 INFO  AUTOMATION - before: Logout
+11:32:00.824 INFO  AUTOMATION - Esperando que la pagina cargue
+11:32:00.853 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:32:00.853 INFO  AUTOMATION - Abrir el menu burger
+11:32:00.900 INFO  AUTOMATION - Esperando que la pagina cargue
+11:32:01.434 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+11:32:01.435 INFO  AUTOMATION - Esperando la visualización de los elementos
+11:32:01.454 INFO  AUTOMATION - Haciendo click en Log Out
+11:32:01.493 INFO  AUTOMATION - Esperando que la pagina cargue
+11:32:01.513 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+11:32:01.513 INFO  AUTOMATION - Verificando Login de la Página
+11:32:01.552 INFO  AUTOMATION - after: Logout, status: PASSED
+11:32:01.732 INFO  AUTOMATION - afterAll
