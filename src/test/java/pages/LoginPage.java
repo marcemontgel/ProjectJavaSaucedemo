@@ -1,6 +1,5 @@
 package pages;
 
-import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import utilities.BasePage;
@@ -13,13 +12,11 @@ public class LoginPage extends BasePage {
     private final By errorMessage = By.cssSelector("h3[data-test='error']");
 
     @Override
-    @Step("Esperando que cargue la página de Login")
     public void waitPageToLoad() {
         waitPage(userNameInput, this.getClass().getSimpleName());
     }
 
     @Override
-    @Step("Verificando la página de Login")
     public void verifyPage() {
         Logs.info("Verificando Login de la Página");
 
@@ -30,7 +27,6 @@ public class LoginPage extends BasePage {
         );
     }
 
-    @Step("Ingresando información en el bloque de Login")
     public void fillLogin(String userName, String password) {
         Logs.info("Ingresar Información");
         find(userNameInput).sendKeys(userName);
@@ -42,7 +38,6 @@ public class LoginPage extends BasePage {
         find(loginButton).click();
     }
 
-    @Step("Verificando información para usuario no valido")
     public void verifyMessageErrorUserInvalid(String textErrorInvalid) {
         final var errorLabel = find(errorMessage);
 
@@ -53,7 +48,6 @@ public class LoginPage extends BasePage {
         );
     }
 
-    @Step("Verificando información para usuario no existente")
     public void verifyMessageErrorUserNotExist(String textErrorNotExist) {
         final var errorLabel = find(errorMessage);
 
