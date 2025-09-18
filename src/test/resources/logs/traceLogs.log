@@ -1,19 +1,21 @@
-11:54:58.521 INFO  AUTOMATION - beforeAll
-11:54:58.523 DEBUG AUTOMATION - Borrando las carpetas de evidencias
-11:54:58.580 INFO  AUTOMATION - before: About
-11:54:58.580 DEBUG AUTOMATION - Asignando default driver a CHROME
-11:54:58.581 DEBUG AUTOMATION - Inicializando driver: CHROME
-11:54:58.581 DEBUG AUTOMATION - Headless mode? false
-11:54:59.718 DEBUG AUTOMATION - Maximizando Pantalla
-11:54:59.752 DEBUG AUTOMATION - Borrando Cookies
-11:54:59.770 DEBUG AUTOMATION - Asignando la cookie al Login
-11:55:00.776 INFO  AUTOMATION - Esperando que la pagina cargue
-11:55:00.826 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
-11:55:00.827 INFO  AUTOMATION - Abrir el menu burger
-11:55:00.872 INFO  AUTOMATION - Esperando que la pagina cargue
-11:55:01.419 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
-11:55:01.420 INFO  AUTOMATION - Esperando la visualización de los elementos
-11:55:01.442 INFO  AUTOMATION - Verificar opción About
-11:55:01.462 INFO  AUTOMATION - after: About, status: PASSED
-11:55:01.462 DEBUG AUTOMATION - Matando el driver
-11:55:01.635 INFO  AUTOMATION - afterAll
+13:34:58.989 INFO  AUTOMATION - beforeAll
+13:34:58.992 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+13:34:59.091 INFO  AUTOMATION - before: Retornar pagina shopping desde detalle producto
+13:34:59.091 DEBUG AUTOMATION - Asignando default driver a CHROME
+13:34:59.091 DEBUG AUTOMATION - Inicializando driver: CHROME
+13:34:59.091 DEBUG AUTOMATION - Headless mode? false
+13:35:00.410 DEBUG AUTOMATION - Maximizando Pantalla
+13:35:00.455 DEBUG AUTOMATION - Borrando Cookies
+13:35:00.475 DEBUG AUTOMATION - Asignando la cookie al Login
+13:35:01.531 INFO  AUTOMATION - Esperando que la pagina cargue
+13:35:01.574 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+13:35:01.574 INFO  AUTOMATION - Navegando al detalle del item: Sauce Labs Fleece Jacket
+13:35:01.695 INFO  AUTOMATION - Esperando que la pagina cargue
+13:35:01.753 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+13:35:01.754 INFO  AUTOMATION - Haciendo click para retornar a la lista de productos
+13:35:01.856 INFO  AUTOMATION - Esperando que la pagina cargue
+13:35:01.886 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+13:35:01.886 INFO  AUTOMATION - Verificando Cargue de la Pagina de Shopping
+13:35:01.964 INFO  AUTOMATION - after: Retornar pagina shopping desde detalle producto, status: PASSED
+13:35:01.964 DEBUG AUTOMATION - Matando el driver
+13:35:02.214 INFO  AUTOMATION - afterAll
