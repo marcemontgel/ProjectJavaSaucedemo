@@ -7,3 +7,7 @@ Feature: Burguer Menu
   Scenario: Logout
     When El usuario hace click en la opción de Log Out
     Then El usuario es redirigido a la pagina de login
+
+  @regression @smoke
+  Scenario: About
+    Then El usuario verifica que la opcion About relacione el enlace correcto "https://saucelabs.com/"

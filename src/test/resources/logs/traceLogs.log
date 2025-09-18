@@ -1,22 +1,19 @@
-11:31:57.026 INFO  AUTOMATION - beforeAll
-11:31:57.028 DEBUG AUTOMATION - Borrando las carpetas de evidencias
-11:31:57.087 INFO  AUTOMATION - before: Logout
-11:31:57.088 DEBUG AUTOMATION - Asignando default driver a CHROME
-11:31:57.088 DEBUG AUTOMATION - Inicializando driver: CHROME
-11:31:57.088 DEBUG AUTOMATION - Headless mode? false
-11:31:59.491 DEBUG AUTOMATION - Maximizando Pantalla
-11:31:59.522 DEBUG AUTOMATION - Borrando Cookies
-11:31:59.544 DEBUG AUTOMATION - Asignando la cookie al Login
-11:32:00.824 INFO  AUTOMATION - Esperando que la pagina cargue
-11:32:00.853 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
-11:32:00.853 INFO  AUTOMATION - Abrir el menu burger
-11:32:00.900 INFO  AUTOMATION - Esperando que la pagina cargue
-11:32:01.434 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
-11:32:01.435 INFO  AUTOMATION - Esperando la visualización de los elementos
-11:32:01.454 INFO  AUTOMATION - Haciendo click en Log Out
-11:32:01.493 INFO  AUTOMATION - Esperando que la pagina cargue
-11:32:01.513 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-11:32:01.513 INFO  AUTOMATION - Verificando Login de la Página
-11:32:01.552 INFO  AUTOMATION - after: Logout, status: PASSED
-11:32:01.552 DEBUG AUTOMATION - Matando el driver
-11:32:01.732 INFO  AUTOMATION - afterAll
+11:54:58.521 INFO  AUTOMATION - beforeAll
+11:54:58.523 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+11:54:58.580 INFO  AUTOMATION - before: About
+11:54:58.580 DEBUG AUTOMATION - Asignando default driver a CHROME
+11:54:58.581 DEBUG AUTOMATION - Inicializando driver: CHROME
+11:54:58.581 DEBUG AUTOMATION - Headless mode? false
+11:54:59.718 DEBUG AUTOMATION - Maximizando Pantalla
+11:54:59.752 DEBUG AUTOMATION - Borrando Cookies
+11:54:59.770 DEBUG AUTOMATION - Asignando la cookie al Login
+11:55:00.776 INFO  AUTOMATION - Esperando que la pagina cargue
+11:55:00.826 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:55:00.827 INFO  AUTOMATION - Abrir el menu burger
+11:55:00.872 INFO  AUTOMATION - Esperando que la pagina cargue
+11:55:01.419 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+11:55:01.420 INFO  AUTOMATION - Esperando la visualización de los elementos
+11:55:01.442 INFO  AUTOMATION - Verificar opción About
+11:55:01.462 INFO  AUTOMATION - after: About, status: PASSED
+11:55:01.462 DEBUG AUTOMATION - Matando el driver
+11:55:01.635 INFO  AUTOMATION - afterAll
