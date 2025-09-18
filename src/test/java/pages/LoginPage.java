@@ -38,23 +38,13 @@ public class LoginPage extends BasePage {
         find(loginButton).click();
     }
 
-    public void verifyMessageErrorUserInvalid(String textErrorInvalid) {
+    public void verifyMessageTextError(String textError) {
         final var errorLabel = find(errorMessage);
 
         Logs.info("Haciendo click en el botón de Login");
         Assertions.assertAll(
                 () -> Assertions.assertTrue(errorLabel.isDisplayed()),
-                () -> Assertions.assertEquals(errorLabel.getText(), textErrorInvalid)
-        );
-    }
-
-    public void verifyMessageErrorUserNotExist(String textErrorNotExist) {
-        final var errorLabel = find(errorMessage);
-
-        Logs.info("Haciendo click en el botón de Login");
-        Assertions.assertAll(
-                () -> Assertions.assertTrue(errorLabel.isDisplayed()),
-                () -> Assertions.assertEquals(errorLabel.getText(), textErrorNotExist)
+                () -> Assertions.assertEquals(errorLabel.getText(), textError)
         );
     }
 }

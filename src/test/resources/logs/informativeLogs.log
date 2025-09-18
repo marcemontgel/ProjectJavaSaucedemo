@@ -1,13 +1,7 @@
-13:34:58.989 INFO  AUTOMATION - beforeAll
-13:34:59.091 INFO  AUTOMATION - before: Retornar pagina shopping desde detalle producto
-13:35:01.531 INFO  AUTOMATION - Esperando que la pagina cargue
-13:35:01.574 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
-13:35:01.574 INFO  AUTOMATION - Navegando al detalle del item: Sauce Labs Fleece Jacket
-13:35:01.695 INFO  AUTOMATION - Esperando que la pagina cargue
-13:35:01.753 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
-13:35:01.754 INFO  AUTOMATION - Haciendo click para retornar a la lista de productos
-13:35:01.856 INFO  AUTOMATION - Esperando que la pagina cargue
-13:35:01.886 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
-13:35:01.886 INFO  AUTOMATION - Verificando Cargue de la Pagina de Shopping
-13:35:01.964 INFO  AUTOMATION - after: Retornar pagina shopping desde detalle producto, status: PASSED
-13:35:02.214 INFO  AUTOMATION - afterAll
+14:49:55.333 INFO  AUTOMATION - beforeAll
+14:49:55.419 INFO  AUTOMATION - before: Verificar los precios
+14:50:05.206 INFO  AUTOMATION - Esperando que la pagina cargue
+14:50:05.247 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+14:50:05.708 INFO  AUTOMATION - Verificando el precio de los productos
+14:50:06.218 INFO  AUTOMATION - after: Verificar los precios, status: PASSED
+14:50:06.398 INFO  AUTOMATION - afterAll

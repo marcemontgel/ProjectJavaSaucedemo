@@ -1,9 +1,13 @@
 package pages;
 
+import modelos.ItemProducto;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.locators.RelativeLocator;
 import utilities.BasePage;
 import utilities.Logs;
+
+import java.util.List;
 
 public class ShoppingPage extends BasePage {
 
@@ -38,4 +42,36 @@ public class ShoppingPage extends BasePage {
         Logs.info("Navegando al detalle del item: %s", itemName);
         find(getItemName(itemName)).click();
     }
+
+    private By getProductPrice(String itemName) {
+        return RelativeLocator
+                .with(By.className("inventory_item_price"))
+                .below(getItemName(itemName));
+
+    }
+
+    public void verifyProductPrice(List<ItemProducto> listItems) {
+        Logs.info("Verificando el precio de los productos");
+
+        Assertions.assertAll(
+                listItems.stream().map(item -> () -> {
+                    final var priceLabel = find(getProductPrice(item.getNombre()));
+                    final var price = Double.parseDouble(
+                            priceLabel.getText().replace("$", "")
+                    );
+
+                    // Convertir cualquier tipo a String y luego a Double
+                    String precioStr = item.getPrecio().toString().replace(",", ".");
+                    double expectedPrice = Double.parseDouble(precioStr);
+
+                    Assertions.assertEquals(
+                            price,
+                            expectedPrice,
+                            0.001, // delta para comparaciones de punto flotante
+                            String.format("fallo: %s", item.getNombre())
+                    );
+                })
+        );
+    }
+
 }

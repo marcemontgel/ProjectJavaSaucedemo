@@ -12,8 +12,4 @@ public class ExcelReader {
     public static List<ItemProducto> leerListaItemProductoExcel() {
         return Poiji.fromExcel(new File(excelPath), ItemProducto.class);
     }
-
-//    public static List<MensajeError> leerMensajeErrorExcel() {
-//        return Poiji.fromExcel(new File(excelPath), MensajeError.class);
-//    }
 }

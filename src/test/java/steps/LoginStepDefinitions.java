@@ -20,14 +20,9 @@ public class LoginStepDefinitions {
         loginPage.fillLogin(username, password);
     }
 
-    @Then("Para usuario invalido debe mostrar {string}")
-    public void verifyMessageErrorUserInvalid(String textErrorInvalid) {
-        loginPage.verifyMessageErrorUserInvalid(textErrorInvalid);
-    }
-
-    @Then("Para usuario no existente debe mostrar {string}")
-    public void verifyErrorMessageNotExist(String textErrorNotExist) {
-        loginPage.verifyMessageErrorUserNotExist(textErrorNotExist);
+    @Then("Mostrar mensaje de error segun el caso: {string}")
+    public void verifyMessageTextError(String textErrorInvalid) {
+        loginPage.verifyMessageTextError(textErrorInvalid);
     }
 
     @Then("El usuario verifica que la UI de la pagina de login sea")

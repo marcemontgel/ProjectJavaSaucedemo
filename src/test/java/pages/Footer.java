@@ -48,6 +48,4 @@ public class Footer extends BasePage {
                 )
         );
     }
-
-
 }
