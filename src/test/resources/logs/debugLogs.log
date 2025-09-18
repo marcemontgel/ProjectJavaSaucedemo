@@ -1,15 +1,15 @@
-09:48:41.420 INFO  AUTOMATION - beforeAll
-09:48:41.423 DEBUG AUTOMATION - Borrando las carpetas de evidencias
-09:48:41.482 INFO  AUTOMATION - before: Verificar la UI
-09:48:41.482 DEBUG AUTOMATION - Asignando default driver a CHROME
-09:48:41.482 DEBUG AUTOMATION - Inicializando driver: CHROME
-09:48:41.482 DEBUG AUTOMATION - Headless mode? false
-09:48:44.254 DEBUG AUTOMATION - Maximizando Pantalla
-09:48:44.289 DEBUG AUTOMATION - Borrando Cookies
-09:48:44.300 DEBUG AUTOMATION - Asignando la cookie al Login
-09:48:45.399 INFO  AUTOMATION - Esperando que la pagina cargue
-09:48:45.432 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
-09:48:45.433 INFO  AUTOMATION - Verificando Cargue de la Pagina de Shopping
-09:48:45.507 INFO  AUTOMATION - after: Verificar la UI, status: PASSED
-09:48:45.507 DEBUG AUTOMATION - Matando el driver
-09:48:45.664 INFO  AUTOMATION - afterAll
+10:42:23.829 INFO  AUTOMATION - beforeAll
+10:42:23.832 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+10:42:23.888 INFO  AUTOMATION - before: Verificar las redes sociales del footer
+10:42:23.888 DEBUG AUTOMATION - Asignando default driver a CHROME
+10:42:23.888 DEBUG AUTOMATION - Inicializando driver: CHROME
+10:42:23.888 DEBUG AUTOMATION - Headless mode? false
+10:42:24.722 DEBUG AUTOMATION - Maximizando Pantalla
+10:42:24.750 DEBUG AUTOMATION - Borrando Cookies
+10:42:24.758 DEBUG AUTOMATION - Asignando la cookie al Login
+10:42:26.302 INFO  AUTOMATION - Esperando que la pagina cargue
+10:42:26.327 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+10:42:26.353 INFO  AUTOMATION - Verificando los links de las redes Sociales
+10:42:26.402 INFO  AUTOMATION - after: Verificar las redes sociales del footer, status: PASSED
+10:42:26.402 DEBUG AUTOMATION - Matando el driver
+10:42:26.593 INFO  AUTOMATION - afterAll
