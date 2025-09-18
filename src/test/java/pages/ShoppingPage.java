@@ -38,5 +38,4 @@ public class ShoppingPage extends BasePage {
         Logs.info("Navegando al detalle del item: %s", itemName);
         find(getItemName(itemName)).click();
     }
-
 }
