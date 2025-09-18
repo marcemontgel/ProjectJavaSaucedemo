@@ -36,20 +36,31 @@ public class LoginPage extends BasePage {
         find(userNameInput).sendKeys(userName);
 
         Logs.info("Ingresar Password");
-        find(passwordInput).sendKeys(userName);
+        find(passwordInput).sendKeys(password);
 
         Logs.info("Haciendo click en el botón de Login");
         find(loginButton).click();
     }
 
-    @Step("Ingresando información en el bloque de Login")
-    public void verifyMessageError(String textError) {
+    @Step("Verificando información para usuario no valido")
+    public void verifyMessageErrorUserInvalid(String textErrorInvalid) {
         final var errorLabel = find(errorMessage);
 
         Logs.info("Haciendo click en el botón de Login");
         Assertions.assertAll(
                 () -> Assertions.assertTrue(errorLabel.isDisplayed()),
-                () -> Assertions.assertEquals(errorLabel.getText(), textError)
+                () -> Assertions.assertEquals(errorLabel.getText(), textErrorInvalid)
+        );
+    }
+
+    @Step("Verificando información para usuario no existente")
+    public void verifyMessageErrorUserNotExist(String textErrorNotExist) {
+        final var errorLabel = find(errorMessage);
+
+        Logs.info("Haciendo click en el botón de Login");
+        Assertions.assertAll(
+                () -> Assertions.assertTrue(errorLabel.isDisplayed()),
+                () -> Assertions.assertEquals(errorLabel.getText(), textErrorNotExist)
         );
     }
 }

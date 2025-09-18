@@ -1,1 +1,1 @@
-start target/cucumber-html-reports/overviews-features.html
+start target/cucumber-html-reports/overview-features.html

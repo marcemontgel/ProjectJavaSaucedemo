@@ -5,9 +5,18 @@ Feature: Login
     Given El usuario navega a la pagina de login
 
   @regression
-  Scenario: Credenciales invalidas
+  Scenario: Credenciales no existentes
     When El usuario escribe las credenciales "standard_user" con password "secret_sauc5"
-    Then Debe aparecer un mensaje indicando "Epic sadface: Username and password do not match any user in this service"
+    Then Para usuario no existente debe mostrar "Epic sadface: Username and password do not match any user in this service"
+
+  @regression
+  Scenario: Credenciales invalidas
+    When El usuario escribe las credenciales "locked_out_user" con password "secret_sauce"
+    Then Para usuario invalido debe mostrar "Epic sadface: Sorry, this user has been locked out."
+
+  @regression
+  Scenario: Credenciales validas
+    When El usuario escribe las credenciales "standard_user" con password "secret_sauce"
 
   @regression @smoke
   Scenario: Verificar la UI de la pagina

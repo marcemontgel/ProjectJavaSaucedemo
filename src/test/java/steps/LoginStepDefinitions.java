@@ -3,13 +3,10 @@ package steps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import pages.LoginPage;
 import utilities.CommonFlows;
 
 public class LoginStepDefinitions {
-    private static final Logger log = LoggerFactory.getLogger(LoginStepDefinitions.class);
     private final CommonFlows commonFlows = new CommonFlows();
     private final LoginPage loginPage = new LoginPage();
 
@@ -23,9 +20,14 @@ public class LoginStepDefinitions {
         loginPage.fillLogin(username, password);
     }
 
-    @Then("Debe aparecer un mensaje indicando {string}")
-    public void verifyErrorMessage(String errorMensaje) {
-        loginPage.verifyMessageError(errorMensaje);
+    @Then("Para usuario invalido debe mostrar {string}")
+    public void verifyMessageErrorUserInvalid(String textErrorInvalid) {
+        loginPage.verifyMessageErrorUserInvalid(textErrorInvalid);
+    }
+
+    @Then("Para usuario no existente debe mostrar {string}")
+    public void verifyErrorMessageNotExist(String textErrorNotExist) {
+        loginPage.verifyMessageErrorUserNotExist(textErrorNotExist);
     }
 
     @Then("El usuario verifica que la UI de la pagina de login sea")
