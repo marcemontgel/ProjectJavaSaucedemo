@@ -6,7 +6,7 @@ Feature: Login
 
   @regression
   Scenario: Credenciales no existentes
-    When El usuario escribe las credenciales "standard_user" con password "secret_sauc5"
+    When El usuario escribe las credenciales "standard_user" con password "secret_sauc1"
     Then Para usuario no existente debe mostrar "Epic sadface: Username and password do not match any user in this service"
 
   @regression
