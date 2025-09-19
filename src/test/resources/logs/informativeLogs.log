@@ -1,7 +1,44 @@
-14:49:55.333 INFO  AUTOMATION - beforeAll
-14:49:55.419 INFO  AUTOMATION - before: Verificar los precios
-14:50:05.206 INFO  AUTOMATION - Esperando que la pagina cargue
-14:50:05.247 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
-14:50:05.708 INFO  AUTOMATION - Verificando el precio de los productos
-14:50:06.218 INFO  AUTOMATION - after: Verificar los precios, status: PASSED
-14:50:06.398 INFO  AUTOMATION - afterAll
+21:28:08.689 INFO  AUTOMATION - beforeAll
+21:28:08.768 INFO  AUTOMATION - before: Mensajes de error
+21:28:10.506 INFO  AUTOMATION - Esperando que la pagina cargue
+21:28:10.554 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+21:28:10.555 INFO  AUTOMATION - Dando clic en el boton de Shopping Cart
+21:28:10.636 INFO  AUTOMATION - Esperando que la pagina cargue
+21:28:10.660 INFO  AUTOMATION - YourCartPage ha cargado satisfactoriamente
+21:28:10.660 INFO  AUTOMATION - Verificando la pagina del carrito
+21:28:10.733 INFO  AUTOMATION - Esperando que la pagina cargue
+21:28:10.763 INFO  AUTOMATION - YourInformationPage ha cargado satisfactoriamente
+21:28:10.764 INFO  AUTOMATION - Dar clic en el boton continuar
+21:28:10.814 INFO  AUTOMATION - Dar clic en el boton continuar
+21:28:10.843 INFO  AUTOMATION - after: Mensajes de error, status: PASSED
+21:28:10.983 INFO  AUTOMATION - before: Mensajes de error
+21:28:12.287 INFO  AUTOMATION - Esperando que la pagina cargue
+21:28:12.311 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+21:28:12.311 INFO  AUTOMATION - Dando clic en el boton de Shopping Cart
+21:28:12.364 INFO  AUTOMATION - Esperando que la pagina cargue
+21:28:12.374 INFO  AUTOMATION - YourCartPage ha cargado satisfactoriamente
+21:28:12.374 INFO  AUTOMATION - Verificando la pagina del carrito
+21:28:12.413 INFO  AUTOMATION - Esperando que la pagina cargue
+21:28:12.425 INFO  AUTOMATION - YourInformationPage ha cargado satisfactoriamente
+21:28:12.426 INFO  AUTOMATION - Escribir el primer nombre
+21:28:12.470 INFO  AUTOMATION - Escribir el apellido
+21:28:12.500 INFO  AUTOMATION - Escribir el zipcode
+21:28:12.557 INFO  AUTOMATION - Dar clic en el boton continuar
+21:28:12.628 INFO  AUTOMATION - Dar clic en el boton continuar
+21:28:12.654 INFO  AUTOMATION - after: Mensajes de error, status: PASSED
+21:28:12.827 INFO  AUTOMATION - before: Mensajes de error
+21:28:14.137 INFO  AUTOMATION - Esperando que la pagina cargue
+21:28:14.165 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+21:28:14.165 INFO  AUTOMATION - Dando clic en el boton de Shopping Cart
+21:28:14.220 INFO  AUTOMATION - Esperando que la pagina cargue
+21:28:14.235 INFO  AUTOMATION - YourCartPage ha cargado satisfactoriamente
+21:28:14.236 INFO  AUTOMATION - Verificando la pagina del carrito
+21:28:14.291 INFO  AUTOMATION - Esperando que la pagina cargue
+21:28:14.310 INFO  AUTOMATION - YourInformationPage ha cargado satisfactoriamente
+21:28:14.311 INFO  AUTOMATION - Escribir el primer nombre
+21:28:14.365 INFO  AUTOMATION - Escribir el apellido
+21:28:14.411 INFO  AUTOMATION - Escribir el zipcode
+21:28:14.443 INFO  AUTOMATION - Dar clic en el boton continuar
+21:28:14.490 INFO  AUTOMATION - Dar clic en el boton continuar
+21:28:14.516 INFO  AUTOMATION - after: Mensajes de error, status: PASSED
+21:28:14.652 INFO  AUTOMATION - afterAll
